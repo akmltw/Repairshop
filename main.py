@@ -1,4 +1,3 @@
-#Imports
 import os
 import sys
 
@@ -18,7 +17,6 @@ if MYPY_CHECK_RUNNING:
 
 __all__ = ["create_main_parser", "parse_command"]
 
-#Main
 def main():
 
     parser_kw = {
